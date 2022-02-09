@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  HeaderView.swift
 //  AlwaysNote
 //
 //  Created by Ryan Wennekes on 09/02/2022.
@@ -7,17 +7,17 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HeaderView: View {
     var body: some View {
         VStack() {
-            HeaderView()
-            EditorView()
+            TitleView()
+            ButtonView()
         }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HeaderView()
     }
 }
